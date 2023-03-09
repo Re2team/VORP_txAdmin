@@ -7,10 +7,7 @@ description: VorpCore Official txAdmin recipe! This will set up a base vorp offi
 
 tasks:
 # Download Pre-Made Files
-  - action: download_github
-    src: https://github.com/VORPCORE/vorp_pre-made
-    ref: main
-    dest: ./temp/premade
+  
   
 
 # TXRecipe Specific server.cfg files
